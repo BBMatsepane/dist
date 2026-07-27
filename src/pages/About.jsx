@@ -1,5 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
+import profile from '../assets/profile.jpg';
+
 
 const About = () => {
   return (
@@ -14,7 +16,7 @@ const About = () => {
         viewport={{ once: true }}
       >
         <img
-          src="/src/assets/profile.jpg"
+          src={profile}
           alt="Basetsana Matsepane"
           className="w-94 h-94 object-cover border-7 border-stone-900 rounded-full shadow-lg"
         />
