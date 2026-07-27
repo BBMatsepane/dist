@@ -51,7 +51,7 @@ const LandingPage = () => {
           transition={{ duration: 1 }}
         >
           <img 
-            src="./assets/cover.jpg" 
+            src="/src/assets/cover.jpg" 
             alt="Basetsana Matsepane" 
             className="w-80 h-auto object-cover drop-shadow-[15px_15px_0px_black] rounded-lg md:ml-8" 
           />
