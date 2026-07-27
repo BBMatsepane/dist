@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { TypeAnimation } from 'react-type-animation'
 import { motion } from 'framer-motion'
-import profile from '../assets/cover.jpg';
+import cover from '../assets/cover.jpg';
 
 const LandingPage = () => {
   return (
@@ -52,7 +52,7 @@ const LandingPage = () => {
           transition={{ duration: 1 }}
         >
           <img 
-            src={cover.jpg} 
+            src={cover} 
             alt="Basetsana Matsepane" 
             className="w-80 h-auto object-cover drop-shadow-[15px_15px_0px_black] rounded-lg md:ml-8" 
           />
