@@ -14,7 +14,7 @@ const About = () => {
         viewport={{ once: true }}
       >
         <img
-          src="/src/assets/profile.jpg"
+          src="./assets/profile.jpg"
           alt="Basetsana Matsepane"
           className="w-94 h-94 object-cover border-7 border-stone-900 rounded-full shadow-lg"
         />
