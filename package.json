@@ -22,10 +22,7 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-icons": "^5.5.0",
-<<<<<<< HEAD
     "react-router-dom": "^7.18.1",
-=======
->>>>>>> 75188386b626d3e7f15c261c681fde1bd1123f80
     "react-type-animation": "^3.2.0",
     "tailwind-merge": "^3.3.1",
     "tailwindcss": "^4.1.11"
