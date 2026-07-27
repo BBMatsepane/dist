@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
-import bloodImg from '../assets/blood.jpg'; // adjust path as needed
-import systemImg from '../assets/system.jpg'; // adjust path as needed
+import bloodImg from '../assets/blood.jpg';
+import systemImg from '../assets/system.jpg';
 
 const Projects = () => {
   const projects = [
@@ -47,7 +47,7 @@ const Projects = () => {
             <motion.div
               key={index}
               className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow"
-              initial={{ opacity: 0, y: 40 }}
+              initial={{ opacity: 0,0 y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.2 }}
               viewport={{ once: true }}
